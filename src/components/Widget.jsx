@@ -18,9 +18,9 @@ export default function Widget({ widget, categoryName, removeWidget }) {
 
       <button
         onClick={() => removeWidget(categoryName, widget.id)}
-        className="absolute top-2 right-2 text-black text-xl rounded-full w-10 h-10 flex items-center justify-center hover:bg-red-300"
+        className="absolute top-2 right-2 text-black text-3xl rounded-full w-10 h-10 flex items-center justify-center hover:bg-red-300"
       >
-        X
+        ×
       </button>
     </div>
   );
