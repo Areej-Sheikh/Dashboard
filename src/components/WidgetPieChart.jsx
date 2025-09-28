@@ -2,7 +2,14 @@ import PropTypes from "prop-types";
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 
 export default function WidgetPieChart({ data, dataKey, nameKey }) {
-  const colors = ["#3182ce", "#63b3ed", "#90cdf4", "#f56565", "#ed8936"];
+  const colors = [
+    "#3182ce",
+    "#fec636",
+    "#ff3131",
+    "#38b6ff",
+    "#00bf63",
+    "#ed8936",
+  ];
   return (
     <ResponsiveContainer width="100%" height={200}>
       <PieChart>
